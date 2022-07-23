@@ -373,7 +373,7 @@ show_usage() {
 bash <(curl -Ls https://raw.githubusercontent.com/Nghi235/status/main/logo.sh)
     echo ''
     echo "------------[Nguyễn Nghị]------------"
-    echo "---------[ADMIN SPEED4G.XYZ]---------"
+    echo "---------[ADMIN SPEED4G.NET]---------"
     echo "  Cách sử dụng tập lệnh quản lý XrayR: "
     echo "------------------------------------------"
     echo "  XrayR                      - Hiển Thị Menu Quản Trị"

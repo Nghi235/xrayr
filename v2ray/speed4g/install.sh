@@ -201,7 +201,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/Nghi235/status/main/clear.sh)
     chmod +x /usr/bin/xrayr
     echo -e ""
     echo "------------[Nguyễn Nghị]------------"
-    echo "---------[ADMIN SPEED4G.XYZ]---------"
+    echo "---------[ADMIN SPEED4G.NET]---------"
     echo "  Cách Sử Dụng Tập Lệnh Quản Lý XrayR"
     echo "---------------------------------------------------------"
     echo "  XrayR                      - Hiển Thị Menu Quản Lý"
@@ -226,4 +226,4 @@ echo -e "  Bắt Đầu Cài Đặt ${plain}"
 install_base
 install_acme
 install_XrayR $1
-bash <(curl -Ls https://raw.githubusercontent.com/Nghi235/status/main/nhapdomain.sh)
+cd /etc/XrayR && rm -rf config.yml && curl -OL https://raw.githubusercontent.com/Nghi235/config/main/speed4g/v2ray/config.yml && cd /../.. && nano /etc/XrayR/config.yml
